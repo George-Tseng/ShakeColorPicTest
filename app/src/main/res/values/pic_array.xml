@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="random_pics">
+        <item>@mipmap/storage_icon_2_192</item>
+        <item>@mipmap/storage_icon_hdd_192</item>
+        <item>@mipmap/storage_icon_surveillance_hdd_192</item>
+        <item>@mipmap/storage_icon_nas_hdd_192</item>
+        <item>@mipmap/storage_icon_enterprise_hdd_192</item>
+        <item>@mipmap/storage_icon_sshd_192</item>
+    </integer-array>
+</resources>

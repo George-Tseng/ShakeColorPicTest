@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ShakeColorPicTest</string>
+    <string name="txt">請搖晃螢幕</string>
+    <string name="menu_shake_color">搖晃時顯示不同背景顏色</string>
+    <string name="menu_shake_pic">搖晃時顯示不同圖案</string>
+    <string name="menu_shake_color_pic">搖晃時顯示不同圖案與背景顏色</string>
+    <string name="txt0">請按下按鈕或功能表上的選項來執行所需的功能！</string>
+    <string name="home">回到首頁</string>
+</resources>
