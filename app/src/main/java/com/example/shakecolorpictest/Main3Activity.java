@@ -44,6 +44,8 @@ public class Main3Activity extends AppCompatActivity {
                 intent0.setClass(v.getContext(),StartActivity.class);
                 //開始執行傳頁
                 startActivity(intent0);
+                //停止執行服務ShakeService
+                stopService(intent1);
                 //結束剩餘活動
                 finish();
             }

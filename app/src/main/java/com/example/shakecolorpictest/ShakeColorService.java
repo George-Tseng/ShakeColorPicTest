@@ -74,11 +74,11 @@ public class ShakeColorService extends Service implements SensorEventListener{
             String valueBlue = Integer.toString(valueB);
             int color0 = Color.argb(255, valueR, valueG,valueB);
             //設定用Toast顯示RGB數值的內容
-            //Toast toast1 = Toast.makeText(this,"本背景的RGB值為：("+valueRed+","+valueGreen+","+valueBlue+")",Toast.LENGTH_SHORT);
+            Toast toast1 = Toast.makeText(this,"本背景的RGB值為：("+valueRed+","+valueGreen+","+valueBlue+")",Toast.LENGTH_SHORT);
             //調整Toast的顯示位置，ref:http://learnexp.tw/%E3%80%90android%E3%80%91toast-%E5%BF%AB%E9%A1%AF%E5%85%83%E4%BB%B6/
-            //toast1.setGravity(Gravity.CENTER,0,450);
+            toast1.setGravity(Gravity.CENTER,0,450);
             //顯示Toast
-            //toast1.show();
+            toast1.show();
             //套用進背景設定
             MainActivity.square.setBackgroundColor(color0);
         }

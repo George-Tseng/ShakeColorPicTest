@@ -89,11 +89,11 @@ public class ShakeService extends Service implements SensorEventListener {
             //利用亂數來決定要顯示哪張圖片(將為該陣列的index，範圍為0～len-1)
             int pic_index = random0.nextInt(len);
             //設定用Toast顯示RGB數值的內容
-            //Toast toast3 = Toast.makeText(this,"本背景的RGB值為：("+valueRed+","+valueGreen+","+valueBlue+")",Toast.LENGTH_SHORT);
+            Toast toast3 = Toast.makeText(this,"本背景的RGB值為：("+valueRed+","+valueGreen+","+valueBlue+")",Toast.LENGTH_SHORT);
             //調整Toast的顯示位置，ref:http://learnexp.tw/%E3%80%90android%E3%80%91toast-%E5%BF%AB%E9%A1%AF%E5%85%83%E4%BB%B6/
-            //toast3.setGravity(Gravity.CENTER,0,450);
+            toast3.setGravity(Gravity.CENTER,0,450);
             //顯示Toast
-            //toast3.show();
+            toast3.show();
             //套用進背景設定
             Main3Activity.square.setBackgroundColor(color0);
             //執行回收
